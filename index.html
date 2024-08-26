@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/56b78c60b2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        *{
+          padding: 0;
+          margin-right: 0;
+          margin: 0;
+        }
+        .font-manrope{
+          font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'green-primary': 'rgb(171, 239, 95)',
+              },  
+            },  
+          },
+        }
+    </script>
+</head>
+<body class="font-manrope">
+    <header class="lg:container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start lg:w-2/5 w-3/4">                  
+                <a class="text-2xl font-bold"><i class="fa-solid fa-arrow-right bg-green-primary rounded-full -rotate-45 p-1 mx-1"></i>Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-2">
+                    <li><a>Home</a></li>
+                    <li><a>Service</a></li>
+                    <li><a>Protfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end hidden lg:flex">
+                    <ul class="menu menu-horizontal px-2 items-center">
+                        <li><a class="rounded-full p-3 bg-slate-200"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                        <li><a><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a class="btn bg-green-primary rounded-full">Book  consult<i class="fa-solid fa-arrow-right bg-black text-white rounded-full -rotate-45 p-1"></i></a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost       lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h16M4 18h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-30 p-2 shadow">
+                      <li><a>Home</a></li>
+                      <li><a>Service</a></li>
+                      <li><a>Protfolio</a></li>
+                      <li><a>Contact us</a></li>
+                      <li><a class="btn">Button</a></li>
+                    </ul>
+                </div>
+              </div>
+        </nav>
+        <div class="lg:w-[900px] w-full mx-auto">
+          <img  class="lg:mx-auto" src="assets/banner.png" alt="">
+          <h1 class="text-center lg:text-5xl text-4xl font-bold">A barn house of this design has a striking appearance</h1>
+          <p class="text-center py-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <button class="bg-green-400 btn text-center lg:ml-80 ml-28 rounded-3xl">View Details<i class="fa-solid fa-arrow-right bg-green-primary rounded-full -rotate-45 p-1 mx-1"></i></button>
+        </div>
+    </header>
+</body>
+</html>
