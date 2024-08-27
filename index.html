@@ -36,7 +36,7 @@
     </script>
 </head>
 <body class="font-manrope">
-    <header class="md:container mx-auto bg-white-primary">
+    <header class="md:container mx-auto bg-gradient-to-b from-white-primary to-white">
         <nav>
             <div class="navbar justify-between">
                 <div class="navbar-start lg:flex-1">                  
@@ -162,7 +162,12 @@
           </div>
         </div>
       </section>
-      <section class="lg:container md:mx-auto">
+      <section class="lg:container md:mx-auto bg-gradient-to-b from-white-primary to-gray-100 mt-20">
+        <div class="text-center">
+          <button class="btn lg:m-0 bg-[#abf05c71] rounded-full mx-auto"><i class="fa-solid fa-arrow-right"></i>Explore our Latest works</button>
+          <h1 class="text-4xl font-extrabold my-4">Our Latest Portfolio</h1>
+          <p class="text-sm font-extralight mb-4">The barn house captivates with its blend of rustic <br> charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
         <div class="grid lg:grid-cols-5 grid-cols-1 gap-3 m-2">
           <div class="lg:col-span-3 flex lg:flex-row flex-col rounded-2xl p-3 bg-white">
           <img src="assets/img1.png" alt="">
@@ -174,6 +179,9 @@
           </div>
           <div class="bg-white lg:col-span-2 rounded-xl">
             <img class="lg:h-full lg:w-full mx-auto p-2" src="assets/img2.png" alt="">
+          </div>
+          <div class="bg-white lg:hidden rounded-xl">
+            <img class="lg:h-full w-80 mx-auto py-5 px-2" src="assets/img5.png" alt="">
           </div>
           <div class="bg-white rounded-xl">
             <img class="lg:h-full  w-80 mx-auto p-2" src="assets/img3.png" alt="">
@@ -187,14 +195,10 @@
             </div>
           </div>
           <div class="bg-white rounded-xl">
-            <img class="lg:h-full mx-auto p-2" src="assets/img5.png" alt="">
-          </div>
-          <div class="bg-white lg:hidden rounded-xl">
-            <img class="lg:h-full mx-auto py-5 px-2" src="assets/img2.png" alt="">
+            <img class="lg:h-full w-80 mx-auto p-2" src="assets/img5.png" alt="">
           </div>
         </div>
       </section>
-      <section>                   
       <section class="bg-[url('./assets/bg.jpg')] bg-cover bg-center my-2 py-12">
         <div class="xl:container lg:mx-auto m-1">
           <div class="text-center">
@@ -203,7 +207,7 @@
             <p class="text-sm font-extralight mb-4">The barn house captivates with its blend of rustic charm <br> and modern sophistication, featuring weathered wood.</p>
 
           </div>
-          <div class="grid lg:grid-cols-2 gap-5 lg:mx-24">
+          <div class="grid lg:grid-cols-2 gap-5 lg:w-3/5 lg:mx-auto">
             <input type="text" placeholder="First Name*" class="input input-bordered rounded-full max-w-md" />
             <input type="text" placeholder="Last Name*" class="input input-bordered rounded-full max-w-md" />
             <input type="text" placeholder="Phone Number*" class="input input-bordered rounded-full max-w-md" />
