@@ -28,7 +28,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                'green-primary': 'rgb(171, 239, 95)',
+                'green-primary': '#ABEF5F',
                 'white-primary': '#F4F4F4',
               },  
             },  
@@ -37,7 +37,7 @@
     </script>
 </head>
 <body class="font-manrope">
-    <header class="lg:container md:mx-auto mx-1 bg-white-primary">
+    <header class="lg:container md:mx-auto bg-white-primary">
         <nav>
             <div class="navbar justify-between">
                 <div class="navbar-start lg:flex-1">                  
@@ -61,7 +61,7 @@
                     </ul>
                 </div> 
                 <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn rounded-full p-3 bg-white mr-5 lg:hidden">
+                    <div tabindex="0" role="button" class="btn rounded-full p-3 bg-white mr-8 lg:hidden">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
@@ -77,12 +77,12 @@
                     </div>
                     <ul
                       tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-15 p-0 shadow">
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-20 p-0 shadow">
                       <li><a>Home</a></li>
                       <li><a>Service</a></li>
                       <li><a>Protfolio</a></li>
                       <li><a>Contact us</a></li>
-                      <li><a class="btn">Button</a></li>
+                      <!-- <li><a class="btn">Button</a></li> -->
                     </ul>
                 </div>
               </div>
@@ -91,7 +91,7 @@
           <img  class="lg:mx-auto" src="assets/banner.png" alt="">
           <h1 class="text-center lg:text-5xl text-4xl font-bold">A barn house of this design has a striking appearance</h1>
           <p class="text-center py-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-            <button class="bg-green-400 btn text-center lg:ml-96 ml-28 rounded-3xl">View Details<i class="fa-solid fa-arrow-right bg-green-primary rounded-full -rotate-45 p-1 mx-1"></i></button>
+            <button class="bg-green-primary btn text-center lg:ml-96 ml-28 rounded-3xl">View Details<i class="fa-solid fa-arrow-right bg-green-500 rounded-full -rotate-45 p-2 mx-1"></i></button>
         </div>
     </header>
     <main class="bg-white-primary">
@@ -163,6 +163,25 @@
           </div>
         </div>
       </section>
+      <section></section>
     </main>
+    <footer class="footer footer-center bg-black text-base-200 rounded mt-7 p-20">
+      <div class="gap-y-4">
+        <div>
+          <a class="text-2xl font-bold"><i class="fa-solid fa-arrow-right bg-green-primary text-black rounded-full -rotate-45 p-1 mx-1"></i>Rinterio</a>
+        </div>
+        <p class="text-sm font-extralight">The barn house with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+      </div>
+        <nav class="grid lg:grid-flow-col grid-flow-row gap-8">
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">Service</a>
+          <a class="link link-hover">Protfolio</a>
+          <a class="link link-hover">Blogs</a>
+          <a class="link link-hover">Contact us</a>
+        </nav>
+        <aside>
+          <a class="btn bg-green-primary rounded-full lg:p-3 px-14 font-bold">Book  consult<i class="fa-solid fa-arrow-right bg-black text-white rounded-full -rotate-45 p-1"></i></a>
+        </aside>
+    </footer>
 </body>
 </html>
